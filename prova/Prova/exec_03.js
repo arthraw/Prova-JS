@@ -9,13 +9,16 @@ Por exemplo, o fatorial de 5 é 5 * 4 * 3 * 2 * 1 = 120. Sua função deve calcu
 function factorialNumber(num) 
 {
     if (num === 0 || num === 1)
-      return 1;
+    {
+        return 1;
+    }
     for (var i = num - 1; i >= 1; i--) 
     {
       num *= i;
     }
     return num;
 }
+
 
 factorialNumber(5);
 
